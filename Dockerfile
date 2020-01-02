@@ -21,3 +21,5 @@ RUN npm install -g @angular/cli@6.2.7
 # Clean up and remove any unused packages
 RUN apt-get clean
 RUN apt-get autoremove
+
+ENV envVar1="Look at what I'm doing!!"
